@@ -36,8 +36,8 @@
     font-family: karlaregular;
 }
 
-.content-head {
-    
+.content-head p {
+    color: hsl(218, 22%, 67%);
 }
 
 .content-head--centered {
@@ -53,19 +53,38 @@
 .content-subscription--centered {
     margin-left: auto;
     margin-right: auto;
+    padding: 5%;
+}
+
+.content-subscription p, .content-whyus p {
+    color: hsl(204, 43%, 93%);
 }
 
 .content-whyus {
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(179, 40%, 43%);
 }
 
-.button {
+span.enlarge {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
     background-color: hsl(71, 73%, 54%);
+}
+
+button p {
+    font-weight: 700;
+    font-size: larger;
 }
 
 .attribution {
     font-size: 11px;
-     text-align: center;
+    text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
